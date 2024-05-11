@@ -1,0 +1,2 @@
+const unitConverter = (e=0, n = []) => { let t = [], r = e, i = n.find(e => 1 === e.isLowest); for (; i;) { let o = i?.value, a = Math.floor(r / o), u = r % o; i.quotient = a, i.remainder = u, t = [...t, i], r = a, i = n.find(e => e.unitId === i.parentId) } let d = []; return t.reverse().map((e, n) => { 0 === n ? e?.quotient > 0 && (d = [...d, `${e?.quotient} ${e?.name}`]) : e?.remainder > 0 && (d = [...d, `${e?.remainder} ${e?.name}`]) }), d.join(", ") }; 
+module.exports= unitConverter;

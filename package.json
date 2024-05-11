@@ -1,0 +1,23 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "description": "Unit converter basically used for developing inventory or SRM module in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin-vani/unit-converter.git"
+  },
+  "keywords": [
+    "unit",
+    "converter"
+  ],
+  "author": "Nitin Vani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitin-vani/unit-converter/issues"
+  },
+  "homepage": "https://github.com/nitin-vani/unit-converter#readme"
+}
